@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Test Theme Styles"
+title: "ffmpeg push video to rtmp"
 ---
 
 http://stackoverflow.com/questions/29018606/android-stream-camera-as-rtmp-stream?rq=1
