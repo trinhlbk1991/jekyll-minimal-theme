@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "ffmpeg push video to rtmp"
+category: "Android"
 ---
 
 [http://stackoverflow.com/questions/29018606/android-stream-camera-as-rtmp-stream?rq=1](http://stackoverflow.com/questions/29018606/android-stream-camera-as-rtmp-stream?rq=1)
