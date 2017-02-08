@@ -1,3 +1,8 @@
+---
+category: "Android"
+---
+
+
 Upgrade Genymotion and VirtualBox to the latest version.
 
 Download two zip files: 

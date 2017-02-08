@@ -1,3 +1,8 @@
+---
+category: "Python"
+---
+
+
 When you try to install Python via pyenv and you got the error:
 
 ```

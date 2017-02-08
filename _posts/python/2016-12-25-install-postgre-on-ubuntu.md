@@ -1,3 +1,8 @@
+---
+category: "Python"
+---
+
+
 ## 1. Add PostgreSQL Apt Repository
 
 ```

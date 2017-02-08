@@ -1,3 +1,8 @@
+---
+category: "Python"
+---
+
+
 ## 1. Install postgre
 
 ## 2. Create a Database
