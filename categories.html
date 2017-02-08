@@ -5,13 +5,21 @@ title: Categories
 
 <h1>Categories</h1>
 
-{{site.tags.Android}}
+<h2>Android</h2>
+{% for post in site.categories.Android %}
 
-{{site.categories.Android}}
+<div>
+  {{ post.date | date: "%b %-d, %Y" }}
+    »
+  <span class='post-title'>
+    <a href="{{ site.path }}{{ post.url }}">{{ post.title }}</a>
+  </span>
+</div>
 
-Hehehehe
+{% endfor %}
 
-{% for post in site.posts %}
+<h2>Python</h2>
+{% for post in site.categories.Python %}
 
 <div>
   {{ post.date | date: "%b %-d, %Y" }}
