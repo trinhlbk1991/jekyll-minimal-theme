@@ -1,3 +1,9 @@
+---
+layout: post
+category: "Android"
+---
+
+
 Workaround for https://code.google.com/p/android/issues/detail?id=182715
 
 The Android Gradle plugin is creating DataBindingExportBuildInfoTasks for the instrumentation APK that generates from the app APKs layouts. This creates duplicate classes in the app and instrumentation APK which leads to
