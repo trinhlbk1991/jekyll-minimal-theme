@@ -1,5 +1,5 @@
 ---
-catgory: 'Android'
+category: 'Android'
 ---
 
 
