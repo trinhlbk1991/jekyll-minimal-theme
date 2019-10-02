@@ -14,11 +14,9 @@ title: Welcome
   </h1>
   <div class="post-date">{{ post.date | date: "%b %-d, %Y" }}</div>
 
-  {{ post.content | split:'<!--break-->' | first }}
+  {{ post.content | truncatewords: 200 }}
 
-  {% if post.content contains '<!--break-->' %}
-      <a href="{{ site.path }}{{ post.url }}">read more</a>
-  {% endif %}
+  <a href="{{ site.path }}{{ post.url }}">read more</a>
 </article>
 
 {% endfor %}
