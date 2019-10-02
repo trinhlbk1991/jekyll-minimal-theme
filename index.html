@@ -14,7 +14,7 @@ title: Welcome
   </h1>
   <div class="post-date">{{ post.date | date: "%b %-d, %Y" }}</div>
 
-  {{ post.content | truncatewords: 200 }}
+  {{ post.content | truncatewords: 50 }}
 
   <a href="{{ site.path }}{{ post.url }}">read more</a>
 </article>
